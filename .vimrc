@@ -20,3 +20,5 @@ set spell spelllang=en_us
 let g:ycm_autoclose_preview_window_after_insertion = 1
 set tags=.tags
 nnoremap <S-Tab> :tabn<CR>
+nnoremap <C-n> :tabe<CR>
+set backspace=indent,eol,start  " more powerful backspacing
